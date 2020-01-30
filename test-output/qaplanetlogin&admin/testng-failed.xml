@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [qaplanetlogin&amp;admin]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <classes>
+      <class name="testng.orangehrmLG">
+        <methods>
+          <include name="BuildExecution"/>
+          <include name="BrowserClose"/>
+          <include name="TC1_3"/>
+        </methods>
+      </class> <!-- testng.orangehrmLG -->
+      <class name="testng.Admin">
+        <methods>
+          <include name="BrowserClose"/>
+          <include name="Tc2_4"/>
+          <include name="Tc2_2"/>
+          <include name="BuildExecution"/>
+          <include name="Tc2_3"/>
+        </methods>
+      </class> <!-- testng.Admin -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [qaplanetlogin&admin] -->
